@@ -1,3 +1,3 @@
 # SvistunDiplomaProject
-Проект BitX
-Использовали технологии HTML, CSS, JS
+Проект Bit
+HTML, CSS, JS
