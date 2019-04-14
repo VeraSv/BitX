@@ -1,3 +1,3 @@
 # SvistunDiplomaProject
-Проект Bit
+Проект BitX
 HTML, CSS, JS
