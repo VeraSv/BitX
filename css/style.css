@@ -2341,12 +2341,6 @@ header .deposit a {
     width: 660px;
 }
 
-.item.img {
-    float: left;
-    width: 455px;
-    height: 313px;
-}
-
 .certificate .address a{
     text-decoration: none;
     font-size: 3.5em;
@@ -2402,10 +2396,59 @@ header .deposit a {
     margin-left: 12px;
 }
 
-.info.about .item:last-child {
-    float: right;
+.info.about .wrapper {
+    margin-top: 84px;
 }
 
+.info.about .wrapper a {
+    color: #03a3f4;
+}
+
+.info.about .wrapper .img p {
+    float: right;
+    width: 644px;
+}
+
+.info.about .wrapper img {
+    float: left;
+    width: 470px;
+    height: 313px;
+    margin-right: 57px;
+    box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.21);
+}
+
+.info.about .wrapper .text p {
+    margin-top: 55px;
+}
+
+.aboutUs .advantages {
+    padding-top: 0;
+    margin-top: 70px;
+}
+
+.aboutUs .captionDark {
+    font-size: 30px;
+    line-height: 83.73px;
+    letter-spacing: 0.025em;
+    color: #202b2f;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+.aboutUs .advantages .item span:nth-child(2) {
+    color: #202b2f;
+}
+
+.aboutUs .advantages .item p {
+    color: #202b2f;
+}
+
+.banner + div {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
 
 
 
