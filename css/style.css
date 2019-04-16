@@ -2291,15 +2291,11 @@ header .deposit a {
 .banner h1 {
     text-transform: uppercase;
     color: #ffffff;
-    padding-top: 280px;
     text-align: right;
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 0.025em;
-}
-
-.banner {
-    height: 375px;
+    padding-bottom: 55px;
 }
 
 .info .item  p {
@@ -2450,7 +2446,130 @@ header .deposit a {
     background-repeat: no-repeat;
 }
 
+/*Affilate*/
 
+.banner {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding-top: 280px;
+}
+
+.affilate .text p {
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    color: #202b2f;
+    padding-top: 110px;
+    padding-bottom: 92px;
+}
+
+.affilate .text a {
+    color: #03a3f4;
+}
+
+.affilate .wrapper {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.img .left,  .img .right {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.55);
+}
+
+.left span:first-child {
+    background-color: #03a3f4;
+}
+
+.img .percent {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    display: table;
+    margin-left: 150px;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+.left span:nth-child(2) {
+    color: #03a3f4;
+}
+
+.img .number {
+    font-size: 121px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    padding-left: 85px;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.left span:last-child {
+    color: #03a3f4;
+}
+
+.img .text {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.img .right {
+    margin-left: 375px;
+}
+
+.img .left,  .img .right {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    position: relative;
+    box-shadow: 0 0 0 40px rgba(255, 255, 255, 0.55);
+}
+
+.right span:first-child {
+    background-color: #44d29d;
+}
+
+.right span:nth-child(2) {
+    color: #44d29d;
+}
+
+.right span:last-child {
+    color: #44d29d;
+}
+
+.img .left::before, .img .right::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 35px solid rgba(51, 51, 51, 0.05);
+    border-radius: 50%;
+    z-index: 1;
+    width: calc(100% + 150px);
+    height: calc(100% + 150px);
+    top: -75px;
+    left: -75px;
+}
+
+.affilate .wrapper .img {
+    padding-top: 105px;
+}
 
 
 
