@@ -2295,7 +2295,7 @@ header .deposit a {
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 0.025em;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
 }
 
 .info .item  p {
@@ -2568,13 +2568,13 @@ header .deposit a {
 }
 
 .affilate .wrapper .img {
-    padding-top: 105px;
+    padding-top: 175px;
     padding-left: 180px;
 }
 
 .affilate .wrapper .item p {
     font-size: 17px;
-    line-height: 30px;
+    line-height: 25px;
     letter-spacing: 0.025em;
     color: #202b2f;
 }
@@ -2591,11 +2591,11 @@ header .deposit a {
 }
 
 .affilate .wrapper .item {
-    margin-top: 120px;
+    margin-top: 130px;
 }
 
 .affilate .wrapper [class^='icon'] {
-    font-size: 3em;
+    font-size: 2em;
     background-color: #ffffff;
     box-shadow: 0 0 0 40px rgba(32, 43, 47, 0.11);
     border-radius: 50%;
@@ -2604,14 +2604,68 @@ header .deposit a {
 }
 
 .affilate .points .point {
-    width: 20%;
+    width: 25%;
     float: left;
-    padding: 0 130px;
+    position: relative;
 }
 
 .affilate .points {
-    margin-top: 300px;
+    margin-top: 340px;
+    text-align: center;
 }
+
+.affilate .points .point span:nth-child(2){
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: #202b2f;
+    display: block;
+    margin-top: 65px;
+}
+
+.affilate .points .point span:nth-child(3){
+    font-size: 15px;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: #ffffff;
+    display: block;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.affilate .item button {
+    font-size: 16.96px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 0 55px;
+    background-color: #202b2f;
+    text-transform: uppercase;
+    border-radius: 25px;
+    box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.21);
+}
+.affilate .item:last-child .button {
+    padding-bottom: 90px;
+    margin: 85px auto 0;
+    text-align: center;
+}
+
+.affilate .points .point+.point::before {
+    content: '';
+    display: block;
+    width: 80px;
+    border-radius: 25px;
+    border: 22px solid rgba(51, 51, 51, 0.05);
+    position: absolute;
+    top: 25px;
+    left: -40px;
+}
+
+
+
 
 
 
