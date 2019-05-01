@@ -14,7 +14,8 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-ul {
+ul,
+ol {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -1372,7 +1373,7 @@ li.selected.highlighted {
 
 }
 
-.map {
+. main .map {
     width: 1920px;
     height: 600px;
     position: relative;
@@ -2669,7 +2670,7 @@ header .deposit a {
 /*contact us*/
 
 .contact .map span[class^='icon'] {
-    font-size: 2em;
+    font-size: 3em;
     background-color: #c9d3dc;
     padding: 10px;
     border-radius: 50%;
@@ -2709,7 +2710,6 @@ header .deposit a {
     border: 7px solid #ffffff;
     box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.21);
     position: relative;
-    margin-left: 150px;
     float: right;
 }
 
@@ -2723,7 +2723,7 @@ header .deposit a {
 
 .contact .map .item {
     margin-top: 105px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 .contact .map .item:first-child {
@@ -2756,7 +2756,7 @@ header .deposit a {
 background-size: cover;
 background-position: 50% 50%;
 background-repeat: no-repeat;
-padding-top: 110px;
+padding-top: 90px;
     padding-bottom: 85px;
 }
 
@@ -2772,7 +2772,7 @@ padding-top: 110px;
 }
 
 .contact .facts .form {
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 305px;
 }
 
@@ -2833,7 +2833,124 @@ padding-top: 110px;
     box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.21);
 }
 
+.rules .banner {
+   padding-top: 200px;
+}
 
+.rules .banner span {
+    font-size: 17px;
+    line-height: 83.73px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+    text-align: right;
+    margin-right: 45px;
+}
+
+.rules .wrapper .preface {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #202b2f;
+    padding-top: 105px;
+}
+
+.rules .wrapper ul {
+    margin-top: 30px;
+}
+
+.rules .wrapper ul li {
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    color: #202b2f;
+    position: relative;
+    padding-left: 20px;
+}
+
+.rules .wrapper ul li+li {
+    padding-top: 10px;
+}
+
+.rules .wrapper ul li::before {
+    content: '';
+    display: block;
+    width: 9px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #1fe096;
+    border: 1px solid #1fe096;
+    left: -3px;
+    top: 15px;
+}
+
+.rules .wrapper ul li+li::before {
+    top: 23px;
+}
+
+.rules ol li.title:first-child {
+    padding-top: 50px;
+}
+
+.rules .wrapper .title span {
+    font-size: 30px;
+    line-height: 83.73px;
+    letter-spacing: 0.025em;
+    font-weight: 700;
+    color: #202b2f;
+    text-transform: uppercase;
+
+}
+
+
+.rules ol li.title {
+    list-style-type: none;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.rules ol {
+    counter-reset: list1;
+}
+
+.rules ol li:before {
+    font-size: 30px;
+    line-height: 83.73px;
+    letter-spacing: 0.025em;
+    font-weight: 700;
+    color: #202b2f;
+    counter-increment: list1;
+    content: '0' counter(list1) ". ";
+}
+
+
+.rules ol ol {
+    counter-reset: list2;
+}
+
+.rules ol ol li:before {
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    color: #202b2f;
+    counter-increment: list2;
+    content: counter(list1) "." counter(list2) ". ";
+}
+
+.rules li ol {
+    padding-top: 18px;
+    text-align: left;
+}
+
+.rules div.wrapper {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 110px;
+}
 
 
 
