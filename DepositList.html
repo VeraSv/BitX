@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit List</title>
+
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/selectric.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.selectric.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div class="bodyWrap">
+    <header class="depositHeader">
+        <div class="topline">
+            <div class="container">
+                <div class="headWrap">
+                    <div class="logo ref clear invisLink">
+                        <div class="text">
+                            <span>Bit</span>
+                            <span>Limited</span>
+                        </div>
+                        <span class="img" style="background-image: url(img/png/logo.png)"></span>
+                        <a href="#">Main</a>
+                    </div>
+                    <div class="languages">
+                        <a href="#" class="img" style="background-image: url(img/png/lang1.png);"></a>
+                        <a href="#" class="img" style="background-image: url(img/png/lang2.png);"></a>
+                    </div>
+                    <div class="social">
+                        <a href="#" class="icon-21 big"></a>
+                        <a href="#" class="icon-20 big"></a>
+                        <a href="#" class="icon-19 big"></a>
+                        <a href="#" class="icon-18 big"></a>
+                    </div>
+                    <div class="date">
+                        <span class="clock grad" id="time">20:47</span>
+                        <div class="day">
+                            <span class="date" id="date">05 Jun</span>
+                            <span class="year" id="year">2018</span>
+                        </div>
+                    </div>
+                    <div class="user clear">
+                        <span class="img" style="background-image: url(img/png/user1.png);"></span>
+                        <div class="text">
+                            <span>Welcome,</span>
+                            <span>Ivanovsky457</span>
+                        </div>
+                    </div>
+                    <div><a href="#" class="btnColor1">Exit</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="container">
+                <a href="main.html">HOME</a>
+                <a href="about%20us.html">ABOUT US</a>
+                <a href="Affilate.html">AFFILATE</a>
+                <a href="#">FOR INVESTORS</a>
+                <a href="#">NEWS</a>
+                <a href="#">FAQ</a>
+                <a href="#">RATE US</a>
+                <a href="rules.html">RULES</a>
+                <a href="contactUs.html">CONTACT US</a>
+                <div class="menu1">
+                    <select name="menu1" id="menu1">
+                        <option value="1">HOME</option>
+                        <option value="2">ABOUT US</option>
+                        <option value="3">AFFILATE</option>
+                        <option value="4">FOR INVESTORS</option>
+                        <option value="5">NEWS</option>
+                        <option value="6">FAQ</option>
+                        <option value="7">RATE US</option>
+                        <option value="8">RULES</option>
+                        <option value="9">CONTACT US</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper clear" style="background-image: url(img/png/fond.png);">
+            <div class="container ">
+                <div class="userInfo">
+                    <span class="img" style="background-image: url(img/png/user2.png);"></span>
+                    <div class="info ">
+                        <div class="point">
+                            <span class="title">Username:</span>
+                            <span class="text">Ivanovsky457</span>
+                        </div>
+                        <div class="point clear">
+                            <span class="icon-29"></span>
+                            <a href="#" class="link2">Edit <span>account</span></a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="point clear">
+                            <span class="icon-1"></span>
+                            <div><span class="title">Last seen:</span>
+                                <span class="text">23.05.2018 14:45</span></div>
+                        </div>
+                        <div class="point clear">
+                            <span class="icon-28"></span>
+                            <div>
+                                <span class="title">With IP adress:</span>
+                                <span class="text">192.189.112.456</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="balance clear">
+                        <div class="balanceImg"><span class="icon-33 grad"></span></div>
+                        <div class="text">
+                            <span>YOUR BALANCE:</span>
+                            <span>7890.00$</span>
+                        </div>
+                    </div>
+                    <div class="btns clear">
+                        <a href="#" class="btnColor1"> <span class="icon-4"></span>DEPOSIT</a>
+                        <a href="#" class="btnColor2"> <span class="icon-3"></span>WITHDRAW</a>
+                    </div>
+                </div>
+                <ul class="navigation">
+                    <li class="point">
+                        <span class="icon-2"></span>
+                        <span>ACCOUNT</span>
+                    </li>
+                    <li class="point">
+                        <span class="icon-30"></span>
+                        <span>DEPOSIT LIST</span>
+                    </li>
+                    <li class="point">
+                        <span class="icon-31"></span>
+                        <span>EARNING HISTORY</span>
+                    </li>
+                    <li class="point ref">
+                        <span class="icon-24"></span>
+                        <span>REFERRALS</span>
+                    </li>
+                    <li class="point">
+                        <span class="icon-32"></span>
+                        <span>EDIT ACCOUNT</span>
+                    </li>
+                </ul>
+                <select name="navigation" id="navigation">
+                    <option value="1">ACCOUNT</option>
+                    <option value="2">DEPOSIT LIST</option>
+                    <option value="3">EARNING HISTORY</option>
+                    <option value="4">REFERRALS</option>
+                    <option value="5">EDIT ACCOUNT</option>
+                </select>
+                <div class="deposit clear">
+                    <div class="item">
+                        <div class="point">
+                            <span class="img" style="background-image: url(img/png/payments11.png);"></span>
+                            <div><span class="title">On the deposit: <span class="text">540.55$</span></span>
+                                <span class="title"><br>Deduced: <span class="text">280.00$</span></span></div>
+                        </div>
+                        <div class="point">
+                            <span class="img" style="background-image: url(img/png/payments12.png);"></span>
+                            <div><span class="title">On the deposit: <span class="text">540.55$</span></span>
+                                <span class="title"><br>Deduced: <span class="text">280.00$</span></span></div>
+                        </div>
+                        <div class="point">
+                            <span class="img" style="background-image: url(img/png/payments13.png);"></span>
+                            <div><span class="title">On the deposit: <span class="text">540.55$</span></span>
+                                <span class="title"><br>Deduced: <span class="text">280.00$</span></span></div>
+                        </div>
+                        <div class="point">
+                            <span class="img" style="background-image: url(img/png/payments14.png);"></span>
+                            <div><span class="title">On the deposit: <span class="text">540.55$</span></span>
+                                <span class="title"><br>Deduced: <span class="text">280.00$</span></span></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="point">
+                            <span class="img" style="background-image: url(img/png/payments15.png);"></span>
+                            <div><span class="title">On the deposit: <span class="text">540.55$</span></span>
+                                <span class="title"><br>Deduced: <span class="text">280.00$</span></span></div>
+                        </div>
+                        <div class="point">
+                            <span class="img" style="background-image: url(img/png/payments16.png);"></span>
+                            <div><span class="title">On the deposit: <span class="text">540.55$</span></span>
+                                <span class="title"><br>Deduced: <span class="text">280.00$</span></span></div>
+                        </div>
+                        <div class="point">
+                            <span class="img" style="background-image: url(img/png/payments17.png);"></span>
+                            <div><span class="title">On the deposit: <span class="text">540.55$</span></span>
+                                <span class="title"><br>Deduced: <span class="text">280.00$</span></span></div>
+                        </div>
+                        <a href="#" class="btnGrad1">TOP UP THE BALANCE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content depositList" style="background-image: url(img/png/fond2.png);">
+        <div class="container">
+            <span class="title">your deposit</span>
+            <div class="wrapper clear">
+                <div class="left clear">
+                    <div>
+                        <div class="item" style="background-image: url(img/png/fondPlan1.png);">
+                            <span class="title">daily plan</span>
+                            <span class="big">7%</span>
+                            <span>daily for 20 days</span>
+                            <div class="point clear">
+                                <span class="icon-1"></span>
+                                <div class="clear">
+                                    <span>Opening date:</span>
+                                    <span>15.05.2018  12:00</span>
+                                </div>
+                            </div>
+                            <div class="point clear">
+                                <span class="icon-33"></span>
+                                <div class="clear">
+                                    <span>Available to output</span>
+                                    <span>585.00$ </span>
+                                </div>
+                            </div>
+                            <div class="point clear">
+                                <span class="icon-30"></span>
+                                <div class="clear">
+                                    <span>Deposit amount:</span>
+                                    <span>1000.00$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="point">
+                                <span>Daily percentage:</span>
+                                <span><br>7%</span>
+                            </div>
+                            <div class="point">
+                                <span> Common: </span>
+                                <span><br>2%</span>
+                            </div>
+                            <div class="point">
+                                <span>Term of contribution:</span>
+                                <span><br>20 days</span>
+                            </div>
+                            <div class="point">
+                                <span>The body of the deposit:</span>
+                                <span><br>At the end</span>
+                            </div>
+                            <div class="point">
+                                <span>Extected profit:</span>
+                                <span><br>500.00$</span>
+                            </div>
+                            <div class="point">
+                                <span>Displays</span>
+                                <span><br>500.00$</span>
+                            </div>
+                            <div class="point">
+                                <span>It remains to estimate:</span>
+                                <span><br>500.00$</span>
+                            </div>
+                            <div class="point">
+                                <span>Closing date:</span>
+                                <span><br>15.06.2018 16:45</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item remains ">
+                        <span>remains to <br> be assessed:</span>
+                        <span style="background-image: url(img/png/DepositList1.png);">39%</span>
+                    </div>
+                </div>
+                <div class="right clear">
+                    <div>
+                        <div class="item" style="background-image: url(img/png/fondPlan2.png);">
+                            <span class="title">after plan</span>
+                            <span class="big">110%</span>
+                            <span>after 5 days</span>
+                            <div class="point clear">
+                                <span class="icon-1"></span>
+                                <div class="clear">
+                                    <span>Opening date:</span>
+                                    <span>15.05.2018  12:00</span>
+                                </div>
+                            </div>
+                            <div class="point clear">
+                                <span class="icon-33"></span>
+                                <div class="clear">
+                                    <span>Available to output</span>
+                                    <span>585.00$ </span>
+                                </div>
+                            </div>
+                            <div class="point clear">
+                                <span class="icon-30"></span>
+                                <div class="clear">
+                                    <span>Deposit amount:</span>
+                                    <span>1000.00$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="point">
+                                <span>Daily percentage:</span>
+                                <span><br>7%</span>
+                            </div>
+                            <div class="point">
+                                <span> Common: </span>
+                                <span><br>100%</span>
+                            </div>
+                            <div class="point">
+                                <span>Term of contribution:</span>
+                                <span><br>5 days</span>
+                            </div>
+                            <div class="point">
+                                <span>The body of the deposit:</span>
+                                <span><br>At the end</span>
+                            </div>
+                            <div class="point">
+                                <span>Extected profit:</span>
+                                <span><br>500.00$</span>
+                            </div>
+                            <div class="point">
+                                <span>Displays</span>
+                                <span><br>500.00$</span>
+                            </div>
+                            <div class="point">
+                                <span>It remains to estimate:</span>
+                                <span><br>500.00$</span>
+                            </div>
+                            <div class="point">
+                                <span>Closing date:</span>
+                                <span><br>15.06.2018 16:45</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item remains ">
+                        <span>remains to <br>  be assessed:</span>
+                        <span style="background-image: url(img/png/DepositList2.png);">51%</span>
+                    </div>
+                </div>
+            </div>
+            <span class="copyrights">© 2018 Bit-X LTD. All rights reserved.</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
